@@ -25,7 +25,9 @@ body{
   margin-bottom: 0;
   line-height: .75;
 }
-
+.navbar-brand{
+  font-size: 1.3em;;
+}
 
 #nav-list >li > a { 
   font-family: 'Oxygen', sans-serif;;
@@ -52,7 +54,7 @@ body{
 	margin-right: auto;
 	margin-top: 10px;
 	margin-bottom: 10px;
-	padding: 10px;
+ 
 }
 .container  p {
 	padding: 10px;
@@ -83,41 +85,10 @@ h3{
   
 }
 
-
-
-/* END HOME PAGE */
-
-/********** Large devices only **********/
-@media (min-width: 1200px) {
- 
+hr{
+  height: 1px;
+  background-color: rgb(255, 255, 255);
+  border: none;
 }
-
-/********** Medium devices only **********/
-@media (min-width: 992px) and (max-width: 1199px) {
- 
-}
-
-/********** Small devices only **********/
-@media (min-width: 768px) and (max-width: 991px) {
-
-}
-
-
- 
-
-
-/* END SINGLE CATEGORY PAGE */
-/********** Extra small devices only **********/
-@media (max-width: 767px) {
-  
-  
- 
-}
-/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
-@media (max-width: 479px) {
-  /* Header */
- 
-}
-
 
 
